@@ -12,7 +12,7 @@ cards.forEach(card => {
     const statusText = card.querySelector('.status1-text');
   
     bioButton.addEventListener('click', () => {
-      bioText.innerHTML = "Marceline is a mean vampire";
+      bioText.innerHTML = "Marceline is a young vampire that loves her guitar and singing";
       bioText.style.display = "block";
       setTimeout(() => {
         bioText.style.display = "none";
@@ -20,7 +20,7 @@ cards.forEach(card => {
     });
   
     statusButton.addEventListener('click', () => {
-      statusText.innerHTML = "This character is currently alive.";
+      statusText.innerHTML = "This character is immortal therefore always alive";
       statusText.style.display = "block";
       setTimeout(() => {
         statusText.style.display = "none";
@@ -37,7 +37,7 @@ cards.forEach(card => {
     const statusText = card.querySelector('.status2-text');
     
   bioButton.addEventListener('click', () => {
-    bioText.innerHTML = "Hello";
+    bioText.innerHTML = "Ice king is a character that acts like a grinch because he feels miserable";
     bioText.style.display = "block";
     setTimeout(() => {
     bioText.style.display = "none";
@@ -45,7 +45,7 @@ cards.forEach(card => {
     });
     
   statusButton.addEventListener('click', () => {
-    statusText.innerHTML = "This character is currently alive.";
+    statusText.innerHTML = "This character is dead.";
     statusText.style.display = "block";
     setTimeout(() => {
     statusText.style.display = "none";
@@ -62,7 +62,7 @@ cards.forEach(card => {
       const statusText = card.querySelector('.status3-text');
         
   bioButton.addEventListener('click', () => {
-      bioText.innerHTML = "Hello";
+      bioText.innerHTML = "BMO is a cute little caring gameboy ";
       bioText.style.display = "block";
       setTimeout(() => {
       bioText.style.display = "none";
@@ -70,7 +70,7 @@ cards.forEach(card => {
       });
         
   statusButton.addEventListener('click', () => {
-      statusText.innerHTML = "This character is currently alive.";
+      statusText.innerHTML = "He is dead, all game boys die.";
       statusText.style.display = "block";
       setTimeout(() => {
       statusText.style.display = "none";
@@ -87,7 +87,7 @@ cards.forEach(card => {
       const statusText = card.querySelector('.status4-text');
         
   bioButton.addEventListener('click', () => {
-      bioText.innerHTML = "Hello";
+      bioText.innerHTML = "Finn is a smart and adventurous character that teaches life lessons";
       bioText.style.display = "block";
       setTimeout(() => {
       bioText.style.display = "none";
@@ -112,7 +112,7 @@ cards.forEach(card => {
       const statusText = card.querySelector('.status5-text');
         
   bioButton.addEventListener('click', () => {
-      bioText.innerHTML = "Hello";
+      bioText.innerHTML = "Jake is the best friend of Finn. They are inseparables in adventures";
       bioText.style.display = "block";
       setTimeout(() => {
       bioText.style.display = "none";
@@ -120,7 +120,7 @@ cards.forEach(card => {
       });
         
   statusButton.addEventListener('click', () => {
-      statusText.innerHTML = "This character is currently alive.";
+      statusText.innerHTML = "This character is MAGIC.";
       statusText.style.display = "block";
       setTimeout(() => {
       statusText.style.display = "none";
@@ -137,7 +137,7 @@ cards.forEach(card => {
       const statusText = card.querySelector('.status6-text');
         
   bioButton.addEventListener('click', () => {
-      bioText.innerHTML = "Hello";
+      bioText.innerHTML = "Bubblegum princess is sweet and educated. Her temper can be deadly though...";
       bioText.style.display = "block";
       setTimeout(() => {
       bioText.style.display = "none";
@@ -145,7 +145,7 @@ cards.forEach(card => {
       });
         
       statusButton.addEventListener('click', () => {
-      statusText.innerHTML = "This character is currently alive.";
+      statusText.innerHTML = "This character is currently alive, maybe.";
       statusText.style.display = "block";
       setTimeout(() => {
       statusText.style.display = "none";
